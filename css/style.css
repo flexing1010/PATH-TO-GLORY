@@ -1,6 +1,7 @@
 @import "reset.css";
 
 @import "timetable.css";
+@import "table.css";
 @import "variables.css";
 
 * {
@@ -19,4 +20,15 @@ header {
   height: 45px;
   font-size: 35px;
   font-weight: 600;
+}
+
+.testbox {
+  left: 100px;
+  position: absolute;
+  z-index: 20;
+  background-color: brown;
+  resize: horizontal;
+  width: 100px;
+  height: 100px;
+  overflow: auto;
 }

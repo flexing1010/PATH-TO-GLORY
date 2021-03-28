@@ -75,6 +75,8 @@ li {
   position: relative;
   cursor: pointer;
   border-radius: 15px;
+  resize: horizontal;
+  overflow: auto;
 }
 
 ul .chart-li-one {
